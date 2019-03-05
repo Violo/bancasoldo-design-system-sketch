@@ -1,0 +1,53 @@
+//== Menu
+//
+//##
+
+$th-height:60px;
+$th-bg-color:#C5AB37;
+$th-brd-color:#fff;
+$th-text:#fff;
+$td-brd-color:#DFDDDD;
+$td-bg-color:#fff;
+$td-text:#827A7A;
+$td-even-bg-color:#F0F0F0;
+.table_financial_info{
+    table-layout:fixed;
+    width:100%;
+    border-collapse:collapse;
+    font-family:Helvetica, Arial, sans-serif;
+    thead{
+    th{
+        height:$th-height;
+        background-color:$th-bg-color;
+        border-top:1px solid $th-brd-color;
+        border-right:1px solid $th-brd-color;
+        padding:0 10px;
+        color:$th-text;
+        font-size:14px;
+        text-align:left;
+        &:last-child{
+            border-right:none;
+        }
+    }
+    }
+    tbody{
+        tr{
+            td{
+                border-right:1px solid $td-brd-color;
+                border-bottom:1px solid $td-brd-color;
+                background-color:$td-bg-color;
+                padding:10px;
+                font-size:14px;
+                color:$td-text;
+                &:last-child{
+                    border-right:none;
+                }
+            }
+            &:nth-child(even){
+                td{
+                    background-color:$td-even-bg-color;
+                }
+            }
+        }
+    }
+}

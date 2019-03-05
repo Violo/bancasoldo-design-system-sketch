@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="it">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>BancaSoldo Design System</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <script src="./bundle.js"></script>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+
+        <h1>BancaSoldo Design System</h1>
+
+        <h2>Table</h2>
+        <p>Questa tabella rappresenta il modo di mostrare i dati in una matrice standard composta che una riga di intestazione
+            ben eveidente con il colore primario e una serie di righe del corpo differenziate da un colore per le pari e dispare.
+        </p>
+
+        <table class="table_financial_info">
+            <thead>
+                <tr>
+                    <th>Descrizione</th>
+                    <th>Numero carta</th>
+                    <th>Data scadenza</th>
+                    <th>Massimale</th>
+                    <th>Massimale Italia</th>
+                    <th>Massimale estero</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>EU ORO ANONIMO E-COMMERCE MC4</td>
+                    <td>************8286</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>7.500,00</td>
+                    <td>2.400,00</td>
+                </tr>
+                <tr>
+                    <td>MASTERCARD CASH-CLONE</td>
+                    <td>************8996</td>
+                    <td>30/09/2018</td>
+                    <td>2.500</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                <td>EURA MASTERCARD CASH-CLONE</td>
+                    <td>************4032</td>
+                    <td>31/03/2022</td>
+                    <td>12.500</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Snippet</h2>
+        <pre>
+&lt;table class=&quot;table_financial_info&quot;&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Descrizione&lt;/th&gt;
+            &lt;th&gt;Numero carta&lt;/th&gt;
+            &lt;th&gt;Data scadenza&lt;/th&gt;
+            &lt;th&gt;Massimale&lt;/th&gt;
+            &lt;th&gt;Massimale Italia&lt;/th&gt;
+            &lt;th&gt;Massimale estero&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;EU ORO ANONIMO E-COMMERCE MC4&lt;/td&gt;
+            &lt;td&gt;************8286&lt;/td&gt;
+            &lt;td&gt;-&lt;/td&gt;
+            &lt;td&gt;-&lt;/td&gt;
+            &lt;td&gt;7.500,00&lt;/td&gt;
+            &lt;td&gt;2.400,00&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;MASTERCARD CASH-CLONE&lt;/td&gt;
+            &lt;td&gt;************8996&lt;/td&gt;
+            &lt;td&gt;30/09/2018&lt;/td&gt;
+            &lt;td&gt;2.500&lt;/td&gt;
+            &lt;td&gt;-&lt;/td&gt;
+            &lt;td&gt;-&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td&gt;EURA MASTERCARD CASH-CLONE&lt;/td&gt;
+            &lt;td&gt;************4032&lt;/td&gt;
+            &lt;td&gt;31/03/2022&lt;/td&gt;
+            &lt;td&gt;12.500&lt;/td&gt;
+            &lt;td&gt;-&lt;/td&gt;
+            &lt;td&gt;-&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+        </pre>
+
+        <h2>Do &amp; Don't</h2>
+
+        <ul>
+            <li>✅ usare anche più volte nella stessa vista</li>
+            <li>✅ usare per tutte le tipologie di matrici con valori numerico/finanziari</li>
+            <li>⚠️ non usare come tabella nella tipografia standard (per valori non finanziari)</li>
+        </ul>
+
+    </body>
+
+</html>

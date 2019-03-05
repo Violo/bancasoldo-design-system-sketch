@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>BancaSoldo Design System</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <script src="./bundle.js"></script>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+
+        <h1>BancaSoldo Design System</h1>
+
+        <h2>Menu</h2>
+        <p>Il menu principale dell'applicazione mostra le sezioni fruibili per ogni cliente (o CDG). Ha un peso abbastanza rilevante sia per la chiarezza
+            dei macrotemi finanziari sia per mantenere traccia di dove sto operando.
+        </p>
+
+        <nav class="nav_menu">
+            <ul class="nav_menu__list">
+                <li class="nav_menu__list__item nav_menu__list__item--active">
+                    <a href="#">Perimetro Rapporti</a>
+                </li>
+                <li class="nav_menu__list__item">
+                    <a href="#">Diagnosi</a>
+                </li>
+                <li class="nav_menu__list__item">
+                    <a href="#">Report</a>
+                </li>
+            </ul>
+        </nav>
+
+        <h2>Snippet</h2>
+        <pre>
+&lt;nav class=&quot;nav_menu&quot;&gt;
+    &lt;ul class=&quot;nav_menu__list&quot;&gt;
+        &lt;li class=&quot;nav_menu__list__item nav_menu__list__item--active&quot;&gt;
+            &lt;a href=&quot;#&quot;&gt;Perimetro Rapporti&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;nav_menu__list__item&quot;&gt;
+            &lt;a href=&quot;#&quot;&gt;Diagnosi&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;nav_menu__list__item&quot;&gt;
+            &lt;a href=&quot;#&quot;&gt;Report&lt;/a&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;
+        </pre>
+
+        <h2>Do &amp; Don't</h2>
+
+        <ul>
+            <li>✅ usare solo una volta nella vista</li>
+            <li>⚠️ non usare per sottosezioni o collegamento a viste che non sono definite macrotemi dello scenario finanziario</li>
+        </ul>
+
+    </body>
+
+</html>
